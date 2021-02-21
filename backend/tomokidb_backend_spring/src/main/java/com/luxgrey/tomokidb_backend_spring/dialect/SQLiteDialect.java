@@ -4,7 +4,8 @@ import java.sql.Types;
 import org.hibernate.dialect.Dialect;
 import org.hibernate.dialect.identity.IdentityColumnSupport;
 
-//implementation based on https://www.baeldung.com/spring-boot-sqlite
+// implementation based on https://www.baeldung.com/spring-boot-sqlite
+// and https://fullstackdeveloper.guru/2020/05/01/how-to-integrate-sqlite-database-with-spring-boot/
 public class SQLiteDialect extends Dialect {
 
   public SQLiteDialect() {
