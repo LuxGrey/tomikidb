@@ -20,7 +20,7 @@ public class Artist {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Column(name = "artist_id")
-  private Long artistId;
+  private Integer artistId;
 
   @ElementCollection
   private List<Alias> aliases = new ArrayList<>();
@@ -28,6 +28,7 @@ public class Artist {
   @OneToMany(mappedBy = "artist")
   private List<Profile> profiles = new ArrayList<>();
 
+  //owner of relation, controls db-sync
   @ManyToMany
   @JoinTable(
       name = "artist_to_tag",

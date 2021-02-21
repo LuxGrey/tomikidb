@@ -13,7 +13,7 @@ public class ProfileType {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Column(name = "profile_type_id")
-  private Long profileTypeId;
+  private Integer profileTypeId;
 
   @Column(name = "type_name")
   private String typeName;

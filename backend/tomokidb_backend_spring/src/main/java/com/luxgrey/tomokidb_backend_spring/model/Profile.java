@@ -12,7 +12,7 @@ public class Profile {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Column(name = "profile_id")
-  private Long profileId;
+  private Integer profileId;
 
   @Column(name = "url")
   private String url;
