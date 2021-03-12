@@ -1,0 +1,1 @@
+This model was created and used to plan the structure of separate pages (or 'Scenes' in JFX-terms) in the application and the navigation between them.

@@ -1,0 +1,1 @@
+This model was created and used to plan which actions can be taken by a user when interacting with the application.
