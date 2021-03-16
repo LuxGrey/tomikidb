@@ -4,4 +4,6 @@ module com.luxgrey {
 
     opens com.luxgrey to javafx.fxml;
     exports com.luxgrey;
+    opens com.luxgrey.controller to javafx.fxml;
+    exports com.luxgrey.controller;
 }

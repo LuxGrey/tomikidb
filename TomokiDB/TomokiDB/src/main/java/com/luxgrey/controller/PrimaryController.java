@@ -1,5 +1,6 @@
-package com.luxgrey;
+package com.luxgrey.controller;
 
+import com.luxgrey.App;
 import java.io.IOException;
 import javafx.fxml.FXML;
 
